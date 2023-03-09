@@ -1,0 +1,48 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Portfollio Evan Rousseau{% endblock %}
+
+{% block body %}
+
+<div class="container pt-4 mt-4">
+    <div class="row">
+        <div class="card col bg-dark border border-light m-3 pt-2">
+            <a href="https://www.coop-atlantique.fr/" target="_blank"><img src="/img/logo_web.png" class="card-img-start" width="100%" ></a>
+            <div class="card-body">
+                <h4 class="card-title fw-bold text-center">Développeur web junior</h4>
+                <h5 class="card-title fw-bold text-center">Alternance (14/09/2020 - 31/08/2022)</h5>
+                <hr/>
+                <h5 class="card-title fw-bold text-center">Missions réalisées</h5>
+                <p class="card-text fs-4">
+                    <ul>
+                        <li>Tests unitaires/fonctionnels (PHPUnit + Jest)</li>
+                        <li>Scripts d'automatisation (GitLab CI/CD)</li>
+                        <li>Montée de version Symfony 4.2 à 5.4</li>
+                        <li>Remplacement MDBootstrap par Bootstrap 5 (HTML + CSS + JS)</li>
+                        <li>Refonte site institutionnel (Symfony 5)</li>
+                        <li>Refonte application note de frais (Symfony 5)</li>
+                    <ul>
+                </p>
+                <p class="card-text fs-4"></p>
+            </div>
+        </div>
+        <div class="card col bg-dark border border-light m-3 pt-2">
+            <a href="https://www.ubisport.fr/" target="_blank"><img src="/img/logoubisport.jpg" class="card-img-start" width="100%" ></a>
+            <div class="card-body">
+                <h4 class="card-title fw-bold text-center">Développeur web junior</h4>
+                <h5 class="card-title fw-bold text-center">Stage (15/04/2020 30/06/2020)</h5>
+                <hr/>
+                <h5 class="card-title fw-bold text-center">Missions réalisées</h5>
+                <p class="card-text fs-4">
+                    <ul>
+                        <li>Petits ajouts de fonctionnalités UbiPlanning (PHP + JS)</li>
+                        <li>Révision sytème facturation</li>
+                        <li>Édition de facture (PDF)</li>
+                    <ul>
+                </p>
+                <p class="card-text fs-4"></p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
