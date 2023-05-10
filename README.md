@@ -23,10 +23,16 @@ Step 3) Installer Symfony CLI (s'il n'est pas déjà installé)
 
 [Symfony CLI](https://symfony.com/download#step-1-install-symfony-cli)
 
-Step 4) Dans le dossier du projet tapez la commande suivante
+Step 4) Installer les packages
+
+```console
+$ npm install
+```
+
+Step 5) Dans le dossier du projet tapez la commande suivante
 
 ```console
 $ symfony serve:start
 ```
 
-Step 5) Ouvrez le site dans un navigateur à l'adresse: http://localhost:8000
+Step 6) Ouvrez le site dans un navigateur à l'adresse: http://localhost:8000
